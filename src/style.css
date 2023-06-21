@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+#app {
+  width: 100vw;
+  height: 100vh;
+}
+:root {
+  --ff-icon-disabled: #999;
+  --ff-radio-text-color: #d9d9d9;
+}
+.el-card__body {
+  height: 100% !important;
+}
+.el-table .warning-row {
+  --el-table-tr-bg-color: var(--el-color-warning-light-9);
+}
+.el-table .success-row {
+  --el-table-tr-bg-color: var(--el-color-success-light-9);
+}
+.el-table .danger-row {
+  --el-table-tr-bg-color: var(--el-color-danger-light-9);
+}
